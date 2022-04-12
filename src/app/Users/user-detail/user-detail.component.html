@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="conatiner d-flex justify-content-between">
+        <div class="row">
+            <div class="col-md-4  mb-4" *ngFor="let res of userDetails">
+                <div class="card p-4  h-100">
+                    <p><b> ID:-</b> {{res.id}}</p>
+                    <p><b>Title:-</b> {{res.title}}</p>
+                    <p><b>Body:-</b> {{res.body}}</p>
+                    <p><b>UserId:-</b> {{res.userId}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

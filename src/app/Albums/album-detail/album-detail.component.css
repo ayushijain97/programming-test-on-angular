@@ -1,0 +1,17 @@
+.card h1 {
+  padding: 15px;
+  font-size: 17px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.card h2 {
+  font-size: 21px;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}

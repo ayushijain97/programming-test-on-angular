@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+.card {
+  height: 100%;
+  border-radius: 0px !important;
+  background: rgba(248, 249, 250);
+  padding: 0 !important;
+  box-shadow: 0 0 15px -2px rgb(0 0 0 / 20%);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+.card p {
+  padding: 10px 20px 0;
+  margin: 0;
+}
+
+.bg-nav {
+  background: #d3d2d29c;
+}
